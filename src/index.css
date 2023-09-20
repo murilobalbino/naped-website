@@ -1,0 +1,175 @@
+@import url("https://fonts.cdnfonts.com/css/akrobat");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+.akrobat {
+    font-family: "Akrobat", sans-serif;
+}
+.gilroy-bold {
+    font-family: "Gilroy-Bold", sans-serif;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+button:active,
+button:focus {
+    border: none;
+    outline: none;
+}
+body {
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "cv11", "salt", "ss01", "ss03", "cv01", "cv02", "cv03", "cv04", "cv05", "cv06", "cv09", "cv10";
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    font-size: 62.5% !important;
+    user-select: none;
+}
+body {
+    overflow: hidden;
+}
+
+:root {
+    --purple: #302A52;
+    --lightpurple: #5F00E6;
+    --darkpurple: #302A52;
+    --red: #F50A46;
+    --darkred: #710B25;
+    --cyan: #1CABCA;
+    --green: #68CA1C;
+    --yellow: #FFCD1E;
+    --yellow2: #F5970A;
+    --blue: #027FE9;
+    --light-blue: #027FE9;
+    --white: #FFF;
+}
