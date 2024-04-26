@@ -1,7 +1,35 @@
 const LINKS = [
     {
+        "name": "Tsuki Mangas",
+        "url": "https://tsuki-mangas.com/",
+    },
+    {
+        "name": "LerManga ORG",
+        "url": "https://lermanga.org/"
+    },
+    {
+        "name": "maidscan.com.br",
+        "url": "https://maidscan.com.br"
+    },
+    {
+        "name": "Asura Toon",
+        "url": "https://asuratoon.com/"
+    },
+    {
+        "name": "Arthur Scan",
+        "url": "https://arthurscan.xyz/",
+    },
+    {
+        "name": "LerManga Me",
+        "url": "https://lermanga.me/"
+    },
+    {
         "name": "Demon Sect",
         "url": "https://demonsect.com.br/"
+    },
+    {
+        "name": "SSS Scanlator",
+        "url": "https://sssscanlator.com.br/",
     },
     {
         "name": "Luratoon",
