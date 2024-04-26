@@ -17,9 +17,33 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  /* width */
+  ::-webkit-scrollbar {
+    @apply w-2
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    @apply bg-zinc-950/10
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    @apply bg-yellow2 dark:bg-yellow2 rounded-xl
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-yellow2
+  }
+}
+
 * {
     box-sizing: border-box;
     user-select: none;
+
+    
 }
 html,
 body,
