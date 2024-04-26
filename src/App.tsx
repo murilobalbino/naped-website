@@ -6,7 +6,7 @@ export default function App() {
     return (
         <div className="flex flex-col items-center justify-center w-[100vw] min-h-screen bg-[#333] ">
             <div className="max-w-2xl space-y-4 flex flex-col items-center">
-                <div className="text-yellow2 text-[5rem] font-black gilroy-bold">LISTA DE SCANS</div>
+                <div className="text-yellow2 text-[5rem] font-black gilroy-bold text-center">LISTA DE SCANS</div>
                 <div className="w-full  h-1 bg-yellow2"></div>
                 <List />
                 
